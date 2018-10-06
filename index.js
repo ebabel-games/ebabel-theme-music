@@ -1,11 +1,5 @@
 'use strict';
 
-/**
- * `ebabelThemeMusic`
- * Attach audio to the player 3D camera.
- */
-const ebabelThemeMusic = require('./src/ebabel-theme-music');
+const themeMusic = require('./src/ebabel-theme-music');
 
-module.exports = {
-  ebabelThemeMusic,
-};
+module.exports = themeMusic;
