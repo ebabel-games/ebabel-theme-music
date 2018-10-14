@@ -33,6 +33,8 @@
 
   // Create a global audio source.
   const sound = new THREE.Audio(listener);
+  sound.name = name;
+
 
   // Load a sound and set it as the Audio object's buffer.
   const audioLoader = new THREE.AudioLoader();
